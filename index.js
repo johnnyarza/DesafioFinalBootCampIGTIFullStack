@@ -60,8 +60,8 @@ connection.once('open', () => {
    * Definição de porta e
    * inicialização do app
    */
-  //let APP_PORT = process.env.PORT;
-  app.listen(3001, () => {
+  const APP_PORT = 3001;
+  app.listen(APP_PORT, () => {
     console.log(`Servidor iniciado na porta ${APP_PORT}`);
   });
 });
