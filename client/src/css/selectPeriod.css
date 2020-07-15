@@ -1,0 +1,8 @@
+#period-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 50px;
+}

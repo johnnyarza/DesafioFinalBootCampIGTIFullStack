@@ -1,0 +1,8 @@
+.transactionDiv {
+  align-items: 'center';
+  align-content: 'center';
+  vertical-align: 'center';
+  border: 1px solid black;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.modal {
+  position: relative;
+  margin: 0;
+}
+
+.modalOverlay {
+  display: none;
+}
+
+.datepicker {
+  transform: scale(1) !important;
+}

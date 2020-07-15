@@ -1,0 +1,13 @@
+.modal.modal-footer {
+  background-color: grey darken-4 !important;
+}
+
+.radioColor {
+  background-color: white !important;
+  border-color: white;
+}
+
+input[type='radio']:checked + label {
+  color: red;
+  font-weight: bold;
+}
