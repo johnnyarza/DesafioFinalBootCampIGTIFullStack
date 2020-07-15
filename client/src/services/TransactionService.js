@@ -1,6 +1,8 @@
 import http from './http-common.js';
 
-function getDistinctPeriods() {
+async function getDistinctPeriods() {
+  // const res = await fetch('/api/transaction/periods/distinct')
+  // const data = await res.json();
   return http.get('/api/transaction/periods/distinct');
 }
 
