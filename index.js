@@ -5,12 +5,6 @@ const routes = require('./routes/routes');
 const path = require('path');
 const dotenv = require('dotenv');
 
-/**
- * Faz a leitura do arquivo
- * ".env" por padrão
- */
-dotenv.config();
-
 const app = express();
 app.use(cors());
 app.use(express.json());

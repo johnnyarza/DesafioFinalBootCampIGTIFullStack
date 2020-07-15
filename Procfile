@@ -1,1 +1,1 @@
-web:node -r dotenv/config --experimental-modules index.js
+web:node -r dotenv/conf index.js
